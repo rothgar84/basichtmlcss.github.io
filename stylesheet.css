@@ -1,0 +1,199 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*header*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  z-index: 9999;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+  color: white;
+}
+
+/*bawah header*/
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  /*position: relative;*/
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.btn {
+  color: white;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.register {
+  background-color: #239b76;
+  opacity: 0.8;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+.twitter {
+  background-color: #55acee;
+  opacity: 0.8;
+}
+
+/*bagian lesson-wrapper*/
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.heading {
+  padding: 60px 0 30px 0;
+  color: #5f5d60;
+}
+
+.heading h2{
+  font-weight: normal;
+}
+
+/*bagian box dalam lesson-wrapper*/
+.box{
+  float: left;
+  width: 25%;
+}
+
+.box-icon{
+  position: relative;
+}
+
+.box-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.desc {
+  width: 80%;
+  font-size: 15px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #b3aeb5;
+}
+
+/*bagian message-wrapper*/
+.message-wrapper {
+  padding-bottom: 80px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  box-shadow: none;
+  top: 7px;
+}
+
+/*bagian footer*/
+footer {
+  padding-top: 30px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #b3aeb5;
+}
